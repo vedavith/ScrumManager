@@ -23,6 +23,8 @@
 		DB7180662ADA15170029F290 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7180652ADA15170029F290 /* ScrumsView.swift */; };
 		DB7180682ADA4DCC0029F290 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7180672ADA4DCC0029F290 /* DetailView.swift */; };
 		DB71806A2ADA5C2B0029F290 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7180692ADA5C2B0029F290 /* DetailEditView.swift */; };
+		DBD4477D2ADB14D9004E7189 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4477C2ADB14D9004E7189 /* ThemeView.swift */; };
+		DBD4477F2ADB167F004E7189 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4477E2ADB167F004E7189 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		DB7180652ADA15170029F290 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		DB7180672ADA4DCC0029F290 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DB7180692ADA5C2B0029F290 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		DBD4477C2ADB14D9004E7189 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		DBD4477E2ADB167F004E7189 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 				DB7180652ADA15170029F290 /* ScrumsView.swift */,
 				DB7180672ADA4DCC0029F290 /* DetailView.swift */,
 				DB7180692ADA5C2B0029F290 /* DetailEditView.swift */,
+				DBD4477C2ADB14D9004E7189 /* ThemeView.swift */,
+				DBD4477E2ADB167F004E7189 /* ThemePicker.swift */,
 			);
 			path = ScrumManager;
 			sourceTree = "<group>";
@@ -300,11 +306,13 @@
 				DB7180662ADA15170029F290 /* ScrumsView.swift in Sources */,
 				DB7180352ADA01060029F290 /* Persistence.swift in Sources */,
 				DB7180682ADA4DCC0029F290 /* DetailView.swift in Sources */,
+				DBD4477D2ADB14D9004E7189 /* ThemeView.swift in Sources */,
 				DB71802E2ADA00FD0029F290 /* MeetingView.swift in Sources */,
 				DB7180642ADA12CA0029F290 /* TrailingIconLableStyle.swift in Sources */,
 				DB71805E2ADA096C0029F290 /* Theme.swift in Sources */,
 				DB7180382ADA01060029F290 /* ScrumManager.xcdatamodeld in Sources */,
 				DB71806A2ADA5C2B0029F290 /* DetailEditView.swift in Sources */,
+				DBD4477F2ADB167F004E7189 /* ThemePicker.swift in Sources */,
 				DB7180602ADA0A770029F290 /* DailyScrum.swift in Sources */,
 				DB71802C2ADA00FD0029F290 /* ScrumManagerApp.swift in Sources */,
 			);
